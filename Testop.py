@@ -119,7 +119,7 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s' % kontol).json()['name']
         open('.ppk/.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s press enter ' % (O, N))
+        raw_input(' %s*%s teken enter ' % (O, N))
         wuhan(kontol)
         os.system('xdg-open ')
         moch_yayan()
@@ -448,3 +448,4 @@ class __crack__:
 if __name__ == '__main__':
     os.system('git pull')
     moch_yayan()
+    
