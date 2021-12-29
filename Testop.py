@@ -93,7 +93,7 @@ def tod():
         time.sleep(1)
 
 
-logo = ' \x1b[0;96m'
+logo = ' \x1b[0;96m'MIAN MUHAMMAD WAQAR
 lo_ngentod = '1714009362122228'
 
 def hasil(ok, cp):
@@ -433,7 +433,7 @@ class __crack__:
                             pwx = [name, xz[0] + '123', xz[0] + '12345']
                         else:
                             pwx = [
-                             name, xz[0] + '123', xz[0] + '12345'] + '786'] + '7788']
+                             name, xz[0] + '123', xz[0] + '12345']
                         __yayanXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
