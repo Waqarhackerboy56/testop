@@ -113,7 +113,7 @@ def yayanxd():
     os.system('clear')
     kontol = raw_input('\n %s[%s?%s] Token :%s ' % (N, M, N, H))
     if kontol in ('open', 'Open', 'OPEN'):
-        raw_input(' %s*%s press enter ' % (O, N))
+        raw_input(' %s*%s teken enter ' % (O, N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
