@@ -93,7 +93,7 @@ def tod():
         time.sleep(1)
 
 
-logo = ' \x1b[0;96m'MIAN MUHAMMAD WAQAR
+logo = ' \x1b[0;96m'
 lo_ngentod = '1714009362122228'
 
 def hasil(ok, cp):
